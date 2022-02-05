@@ -21,6 +21,8 @@ import AgriculturalNonAgricultural from "./pages/AgriculturalNonAgricultural";
 import NatureofDocumentWill from "./pages/NatureofDocumentWill";
 import EditProfile from "./pages/EditProfile";
 import Dashboard from "./pages/Dashboard";
+import PBhoomiSearch from "./pages/PBhoomiSearch";
+import PViewPropertyBhoomi from "./pages/PViewPropertyBhoomi";
 
 function App() {
   const [viewOtpForm, setViewOtpForm] = useState(false);
@@ -136,6 +138,14 @@ function App() {
         <Route
           path="/AgriculturalNonAgricultural"
           element={<AgriculturalNonAgricultural />}
+        />
+        <Route
+          path="/bhoomisearch"
+          element={<PBhoomiSearch />}
+        />
+         <Route
+          path="/viewpropertybhoomi"
+          element={<PViewPropertyBhoomi />}
         />
       </Routes>
     </div>
