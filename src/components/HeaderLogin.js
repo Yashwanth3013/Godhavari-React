@@ -45,7 +45,7 @@ const HeaderLogin = () => {
         </div>
         <div className="d-flex justify-content-center align-items-center gap-5 m-5 ">
           <p className="mt-3" style={{ fontSize: "16px" }}>
-            hello,user
+            Hello,user
           </p>
           <img
             src="assets\img\avatars\hello.png"
