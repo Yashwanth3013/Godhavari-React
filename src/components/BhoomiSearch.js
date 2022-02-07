@@ -41,7 +41,7 @@ const BhoomiSearch = () => {
 
                     {/*Body Part Start*/}
     <div className="container-fulid mt-3">
-        <div  class="card " style={{top: "20px",left: "40px",width: "1260px",height: "800px",borderStyle:'solid',borderColor:'#E8E8E8'}} >
+        <div  class="card " style={{top: "20px",left: "40px",width: "1260px",height: "900px",borderStyle:'solid',borderColor:'#E8E8E8'}} >
             <div className="mt-4 ml-4">
                 <span class="glyphicon glyphicon-chevron-left" /><a href='#' style={{color:"black",textDecoration: "none"}}>Back</a> <br />
             </div>
@@ -60,7 +60,7 @@ const BhoomiSearch = () => {
                 <div class="row ml-4" >
                     <div class="col-md-3 "  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>DISTRICT</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px"}} >
+                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}} >
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -69,7 +69,7 @@ const BhoomiSearch = () => {
                     </div>
                     <div class="col-md-3"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>TALUKA</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px"}}>
+                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}}>
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -78,7 +78,7 @@ const BhoomiSearch = () => {
                     </div>
                     <div class="col-md-3" >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>HOBLI</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px"}}>
+                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}}>
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -87,7 +87,7 @@ const BhoomiSearch = () => {
                     </div>
                     <div class="col-md-3"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>INDEX II: VILLAGE</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px"}}>
+                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}}>
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -97,16 +97,16 @@ const BhoomiSearch = () => {
                     <br /><br />  <br /><br />   <br /><br />  <br /><br />
                     <div class="col-md-3"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>SURVEY NO.</b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px"}} placeholder='value' />
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px"}} placeholder='value' />
                         
                     </div>
                     <div class="col-md-3"  >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>HISSA NO.</b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px"}} placeholder='Value'/> 
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>HISSA NO.</b></lable><br />
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px"}} placeholder='Value' disabled/> 
                     </div>
                     <div class="col-md-3" >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>EXTENT</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "42px"}}>
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>EXTENT</b></lable><br />
+                        <select style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px"}} disabled>
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -115,7 +115,7 @@ const BhoomiSearch = () => {
                     </div>
                     <div class="col-md-3"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>11 E SKETCH NUMBER</b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px"}} placeholder='Value'/>
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px"}} placeholder='Value' disabled/>
                        
                     </div>
                 </div>
@@ -125,17 +125,319 @@ const BhoomiSearch = () => {
                 </div>
             </div>
             <div>
-                <div class=" w-100 bg-primary text-white" style={{height: "40px",borderStyle:'solid',marginTop:"30px"}}>
-                <p className="mt-2 ml-4">Results</p>
-                </div>
+                <div >
+                <table class="table table-bordered mt-4 ">
+          <thead
+            style={{
+              backgroundColor: "#0A429B",
+            }}
+          >
+            <tr className="text-white " style={{ fontSize: "14px" }}>
+              <th
+                style={{
+                  top: "1136px",
+                  left: "83px",
+                  width: "1762px",
+                  height: "48px",
+                }}
+                scope="col"
+              >
+                <p class="ml-3 font-weight-normal">Results</p>
+              </th>
+            </tr>
+          </thead>
+          <thead>
+            <tbody>
+              <tr>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "40px",
+                    width: "90px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">S.NO.</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "130px",
+                    width: "200px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Survey No.</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "330px",
+                    width: "200px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Hissa No.</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "530px",
+                    width: "360px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Owner Name</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "890px",
+                    width: "200px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Relationship</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "1090px",
+                    width: "310px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Relative Name</p>
+                </th>
+                <thead>
+                  <tr>
+                    <th
+                      style={{
+                        top: "784px",
+                        left: "1400px",
+                        width: "480px",
+                        height: "40px",
+                      }}
+                      colspan="3"
+                      scope="colgroup"
+                    >
+                      <p className="text-center">Available Extent</p>
+                    </th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <th
+                      style={{
+                        top: "824px",
+                        left: "1400px",
+                        width: "160px",
+                        height: "40px",
+                      }}
+                      scope="col"
+                    >
+                      <p
+                        className="text-center"
+                        style={{
+                          top: "832px",
+                          left: "1461px",
+                          width: "80px",
+                          height: "24px",
+                        }}
+                      >
+                        {" "}
+                        Acre
+                      </p>
+                    </th>
+                    <th
+                      style={{
+                        top: "824px",
+                        left: "1560px",
+                        width: "160px",
+                        height: "40px",
+                      }}
+                      scope="col"
+                    >
+                      <p
+                        className="text-center"
+                        style={{
+                          top: "832px",
+                          left: "1614px",
+                          width: "80px",
+                          height: "24px",
+                        }}
+                      >
+                        {" "}
+                        Gunta
+                      </p>
+                    </th>
+                    <th
+                      style={{
+                        top: "824px",
+                        left: "1720px",
+                        width: "160px",
+                        height: "40px",
+                      }}
+                      scope="col"
+                    >
+                      <p
+                        className="text-center"
+                        style={{
+                          top: "832px",
+                          left: "1726px",
+                          width: "120px",
+                          height: "24px",
+                        }}
+                      >
+                        {" "}
+                        Fraction of Gunta
+                      </p>
+                    </th>
+                  </tr>
+                </thead>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td
+                  className="text-center font-weight-normal"
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "40px",
+                    width: "90px",
+                    height: "48px",
+                  }}
+                  scope="row"
+                >
+                  1
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "130px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>56</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "330px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>1</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "530px",
+                    width: "360px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>Owner Name</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "890px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>Father</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "1280px",
+                    left: "1480px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>Name</text>
+                  </div>
+                </td>
+                <tr>
+                  <colgroup span="3"></colgroup>
+                  <td
+                    style={{
+                      top: "864px",
+                      left: "1400px",
+                      width: "100px",
+                      height: "48px",
+                    }}
+                    scope="row"
+                  >
+                    <p className="text-center font-weight-normal">2</p>
+                  </td>
+                  <td
+                    style={{
+                      top: "864px",
+                      left: "1560px",
+                      width: "100px",
+                      height: "48px",
+                    }}
+                    scope="row"
+                  >
+                    <p className="text-center font-weight-normal">3</p>
+                  </td>
+                  <td
+                    style={{
+                      top: "864px",
+                      left: "1720px",
+                      width: "140px",
+                      height: "48px",
+                    }}
+                    scope="row"
+                  >
+                    <p className="text-center font-weight-normal">45</p>
+                  </td>
+                </tr>
+              </tr>
+            </tbody>
+          </thead>
+        </table>
+     </div>
         </div>
         </div>
         </div>
     
-    <div class=" w-100 bg-dark text-white" style={{height: "40px",borderStyle:'solid',borderColor:'#E8E8E8',marginTop:"30px"}}>
-        <p className="mt-2 ml-4"><div class=" w-100 bg-dark text-white" style={{height: "40px",borderStyle:'solid',borderColor:'#E8E8E8',marginTop:"30px"}}>
+    <div >
+    <div className=" col-md-3">
+        <a class="button "  style={{marginLeft:'520px', width:'150px', height:'40px',marginBottom:"100px",
+                        color:'white',paddingTop:'10px',borderRadius:"10px"}}>Search</a> 
+        </div>
+      
+            <div class=" w-100 bg-dark text-white" style={{height: "40px",borderStyle:'solid',borderColor:'#E8E8E8',marginTop:"100px"}}>
         <p className="mt-2 ml-4">Accessibility Statement | Terms & Conditions | Website Policies | Help | Feedback | Contact Us | Web Information Manager | FAQ | Sitemap | Visitors Analytics</p>
-    </div></p>
+    </div>
+
     </div>
     <div class=" w-100 ml-4" style={{top: "1032px",left: "60px",width: "414px",height: "21px"}}>
         <h5>©2021, Department of Stamps and Registration, Karnataka</h5>
