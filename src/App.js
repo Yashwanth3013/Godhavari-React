@@ -133,8 +133,8 @@ function App() {
         <Route path="/NatureofDocumentWill" element={<NatureofDocumentWill />}/>
         <Route path="/ImmovableMovable" element={<ImmovableMovable />} />
         <Route path="/AgriculturalNonAgricultural" element={<AgriculturalNonAgricultural />} />
-        <Route path="/" element={<Mojiniesketch />} />
-      
+        <Route path="/Mojinisketch" element={<Mojiniesketch />} />
+        <Route path="/" element={<NonAgriculturalSearch/>} />
       </Routes>
     </div>
   );
