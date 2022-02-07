@@ -23,6 +23,8 @@ import EditProfile from "./pages/EditProfile";
 import Dashboard from "./pages/Dashboard";
 import Mojiniesketch from "./pages/Mojiniesketch";
 import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
+import ViewPropertyNonAgricultural from "./pages/ViewPropertyNonAgricultural";
+
 
 function App() {
   // const [viewOtpForm, setViewOtpForm] = useState(false);
@@ -134,7 +136,8 @@ function App() {
         <Route path="/ImmovableMovable" element={<ImmovableMovable />} />
         <Route path="/AgriculturalNonAgricultural" element={<AgriculturalNonAgricultural />} />
         <Route path="/Mojinisketch" element={<Mojiniesketch />} />
-        <Route path="/" element={<NonAgriculturalSearch/>} />
+        <Route path="/NonAgriculturalSearch" element={<NonAgriculturalSearch/>} />
+        <Route path="/" element={<ViewPropertyNonAgricultural />} />
       </Routes>
     </div>
   );
