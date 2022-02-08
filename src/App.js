@@ -21,13 +21,11 @@ import AgriculturalNonAgricultural from "./pages/AgriculturalNonAgricultural";
 import NatureofDocumentWill from "./pages/NatureofDocumentWill";
 import EditProfile from "./pages/EditProfile";
 import Dashboard from "./pages/Dashboard";
-<<<<<<< HEAD
 import PBhoomiSearch from "./pages/PBhoomiSearch";
 import PViewPropertyBhoomi from "./pages/PViewPropertyBhoomi";
-=======
 import Mojiniesketch from "./pages/Mojiniesketch";
 import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
->>>>>>> 98f159db6992da694f902c8a9a198aef96dbe98a
+import PNonagriculturalsearch from "./pages/PNonagriculturalsearch";
 
 function App() {
   // const [viewOtpForm, setViewOtpForm] = useState(false);
@@ -137,7 +135,6 @@ function App() {
         <Route path="/NatureOfDocumentPOA" element={<NatureOfDocumentPOA />} />
         <Route path="/NatureofDocumentWill" element={<NatureofDocumentWill />}/>
         <Route path="/ImmovableMovable" element={<ImmovableMovable />} />
-<<<<<<< HEAD
         <Route
           path="/AgriculturalNonAgricultural"
           element={<AgriculturalNonAgricultural />}
@@ -150,11 +147,11 @@ function App() {
           path="/viewpropertybhoomi"
           element={<PViewPropertyBhoomi />}
         />
-=======
         <Route path="/AgriculturalNonAgricultural" element={<AgriculturalNonAgricultural />} />
         <Route path="/" element={<Mojiniesketch />} />
+        <Route path="/nonagrisearch" element={<PNonagriculturalsearch />} />
       
->>>>>>> 98f159db6992da694f902c8a9a198aef96dbe98a
+
       </Routes>
     </div>
   );
