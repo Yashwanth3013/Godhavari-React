@@ -3,7 +3,7 @@ import FooterLogin from "../components/FooterLogin";
 import HeaderLogin from "../components/HeaderLogin";
 import Property1of1 from "../components/Property1of1";
 import Tabmenu from "../components/Tabmenu";
-import ViewPropertyMojiliEsketch from "../components/ViewPropertyMojiliEsketch";
+import ViewPropertyMojiniEsketch from "../components/ViewPropertyMojiniEsketch";
 
 
 function Mojiniesketch() {
@@ -11,7 +11,7 @@ function Mojiniesketch() {
     <div>
      <HeaderLogin />
      <Tabmenu />
-     <ViewPropertyMojiliEsketch /> 
+     <ViewPropertyMojiniEsketch /> 
      <Property1of1 />
      <FooterLogin />
 

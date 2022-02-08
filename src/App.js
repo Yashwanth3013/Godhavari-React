@@ -23,7 +23,8 @@ import EditProfile from "./pages/EditProfile";
 import Dashboard from "./pages/Dashboard";
 import Mojiniesketch from "./pages/Mojiniesketch";
 import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
-import ViewPropertyNonAgricultural from "./pages/ViewPropertyNonAgricultural";
+import ViewPropertyNonAgricultural20 from "./pages/ViewPropertyNonAgricultural20";
+import ViewPropertyNonAgricultural21 from "./pages/ViewPropertyNonAgricultural21";
 
 
 function App() {
@@ -135,9 +136,10 @@ function App() {
         <Route path="/NatureofDocumentWill" element={<NatureofDocumentWill />}/>
         <Route path="/ImmovableMovable" element={<ImmovableMovable />} />
         <Route path="/AgriculturalNonAgricultural" element={<AgriculturalNonAgricultural />} />
-        <Route path="/Mojinisketch" element={<Mojiniesketch />} />
+        <Route path="/Mojiniesketch" element={<Mojiniesketch />} />
         <Route path="/NonAgriculturalSearch" element={<NonAgriculturalSearch/>} />
-        <Route path="/" element={<ViewPropertyNonAgricultural />} />
+        <Route path="/ViewPropertyNonAgricultural20" element={<ViewPropertyNonAgricultural20 />} />
+        <Route path="/" element={<ViewPropertyNonAgricultural21 />} />
       </Routes>
     </div>
   );

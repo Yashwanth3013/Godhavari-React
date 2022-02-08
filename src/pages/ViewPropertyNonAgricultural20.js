@@ -1,16 +1,16 @@
 import React from 'react';
 import Tabmenu from '../components/Tabmenu';
 import HeaderLogin from "../components/HeaderLogin";
-const ViewPropertyNonAgricultural = () => {
+import Vpropertynonagricultural20 from '../components/Vpropertynonagricultural20';
+const ViewPropertyNonAgricultural20 = () => {
   return(
        <div>
     
        <HeaderLogin />
        <Tabmenu />
-    
-    
+       <Vpropertynonagricultural20 />
     </div>
   ); 
 };
 
-export default ViewPropertyNonAgricultural;
+export default ViewPropertyNonAgricultural20;
