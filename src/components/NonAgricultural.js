@@ -69,72 +69,35 @@ const NonAgricultural = () => {
               </div>
             </div>
             </div>
-        <div class='d-flex flex-row'>
-            
-            <div className="">
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={bbmp}
-          />
-          </div>
-            <div className="col-m-2"></div>
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={swathu}
-          />
+            <div class='row m-5' style={{}}>
+            <div className="col-2">
+                <img src={bbmp} style={{height:"160px",width:"160px"}}/>
+                <p style={{fontSize:"12px",width:"23rem"}}>The <b style={{fontSize:"12px"}}>Bruhat Bengaluru Mahanagara Palike</b> is the administrative body responsible for civic amenities and some infrastructural assets of the<b>Greater Bangalore metropolitan area.</b></p>
+            </div>
+            <div className="col-2">
+                <img src={swathu} style={{height:"160px",width:"160px"}} />
+                <p style={{fontSize:"12px",width:"23rem"}}>It is the unique number given by the<b style={{fontSize:"12px"}}>RDPR department</b> for the properties following under the<b>Gram Panchayat jurisdiction.</b></p>
+            </div>
+            <div className="col-2">
+                 <img src={upor} style={{height:"160px",width:"160px"}}/>
+                 <p style={{fontSize:'12px',width:"23rem"}}><b style={{fontSize:"12px"}}>Urban Property Ownership Records</b>given by the urban development authorities for the properties falling<b>Municipal Corporation, City Municipal Council (CMC), Town Municipal Council (TMC) and Town Panchayats.</b></p>
+            </div>
+            <div className="col-2">
+                <img src={aasthi} style={{height:"160px",width:"160px"}}/>
+                <p style={{fontsize:'12px',width:"23rem"}}>It is an unique number given by the urban development authorities for the properties falling under<b style={{fontSize:"12px"}}>Municipal Corporation, City Municipal Council (CMC), Town Municipal Council (TMC) and Town Panchayats.</b></p>
+            </div>
         
-        
-            <div className="col-m-2"></div>
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={upor}
-          />
-          <div className="col-m-2"></div>
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={aasthi}
-          />
-          <div className="col-m-2"></div>
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={bda}
-          />
-          <div className="col-m-2"></div>
-            <img
-            style={{
-              top: "223px",
-              left: "40px",
-              width: "165px",
-              height: "160px",
-            }}
-            src={others}
-          />
-          </div>
+            <div className="col-2">
+                <img src={bda} style={{height:"160px",width:"160px"}}/>
+                <p style={{fontSize:'12px',width:"23rem"}}>The <b style={{fontSize:"12px"}}>Bangalore Development Authority of Bangalore,</b> India, is a governmental organization and the principal planning authority for Bangalore.</p>
+            </div>
+       
+            <div className="col-2">
+                 <img src={others} style={{height:"160px",width:"160px"}}/>
+                 <p style={{fontSize:'12px',width:"23rem"}}>Select this option if your property does not lie in any of the previous option.</p>
+            </div>
+       
+      </div>
         </div>
         </div>
      

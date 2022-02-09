@@ -1,7 +1,9 @@
 import React from 'react';
 import back from "../assets/img/avatars/Group 417.png";
 import hello from "../assets/img/avatars/Hello.png";
-const ViewPropertyBhoomi = () => {
+
+
+const Vpropertynonagricultural21 = () => {
   return (
     <div>
     <div>
@@ -40,7 +42,7 @@ const ViewPropertyBhoomi = () => {
                   className="font-weight-bold ml-3"
                   style={{ fontSize: "26px" }}
                 >
-                  <p>According to your Input, this is the property we found in Bhoomi database</p>
+                  <p>According to your Input, this is the property we found in Godhavari database</p>
                 </div>
                 <div>
                   <p
@@ -117,139 +119,53 @@ const ViewPropertyBhoomi = () => {
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Survey No.</p>
+                  <p className="text-center font-weight-bold">Property ID</p>
                 </th>
                 <th
                   style={{
                     top: "784px",
                     left: "330px",
-                    width: "200px",
+                    width: "700px",
                     height: "80px",
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Hissa No.</p>
+                  <p className="text-center font-weight-bold">Property Description</p>
                 </th>
                 <th
                   style={{
                     top: "784px",
                     left: "530px",
-                    width: "360px",
+                    width: "300px",
                     height: "80px",
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Owner Name</p>
+                  <p className="text-center font-weight-bold">Buyer Name</p>
                 </th>
                 <th
                   style={{
                     top: "784px",
                     left: "890px",
-                    width: "200px",
+                    width: "300px",
                     height: "80px",
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Relationship</p>
+                  <p className="text-center font-weight-bold">Seller Name</p>
                 </th>
                 <th
                   style={{
                     top: "784px",
-                    left: "1090px",
-                    width: "310px",
+                    left: "890px",
+                    width: "300px",
                     height: "80px",
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Relative Name</p>
+                  <p className="text-center font-weight-bold">Date of Transaction</p>
                 </th>
-                <thead>
-                  <tr>
-                    <th
-                      style={{
-                        top: "784px",
-                        left: "1400px",
-                        width: "480px",
-                        height: "40px",
-                      }}
-                      colspan="3"
-                      scope="colgroup"
-                    >
-                      <p className="text-center">Available Extent</p>
-                    </th>
-                  </tr>
-                </thead>
-                <thead>
-                  <tr>
-                    <th
-                      style={{
-                        top: "824px",
-                        left: "1400px",
-                        width: "160px",
-                        height: "40px",
-                      }}
-                      scope="col"
-                    >
-                      <p
-                        className="text-center"
-                        style={{
-                          top: "832px",
-                          left: "1461px",
-                          width: "80px",
-                          height: "24px",
-                        }}
-                      >
-                        {" "}
-                        Acre
-                      </p>
-                    </th>
-                    <th
-                      style={{
-                        top: "824px",
-                        left: "1560px",
-                        width: "160px",
-                        height: "40px",
-                      }}
-                      scope="col"
-                    >
-                      <p
-                        className="text-center"
-                        style={{
-                          top: "832px",
-                          left: "1614px",
-                          width: "80px",
-                          height: "24px",
-                        }}
-                      >
-                        {" "}
-                        Gunta
-                      </p>
-                    </th>
-                    <th
-                      style={{
-                        top: "824px",
-                        left: "1720px",
-                        width: "160px",
-                        height: "40px",
-                      }}
-                      scope="col"
-                    >
-                      <p
-                        className="text-center"
-                        style={{
-                          top: "832px",
-                          left: "1726px",
-                          width: "120px",
-                          height: "24px",
-                        }}
-                      >
-                        {" "}
-                        Fraction of Gunta
-                      </p>
-                    </th>
-                  </tr>
-                </thead>
-              </tr>
+                </tr>
             </tbody>
             <tbody>
               <tr>
@@ -276,7 +192,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>56</text>
+                    <text>AMMM545456121S6LL</text>
                   </div>
                 </td>
                 <td
@@ -289,7 +205,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>1</text>
+                    <text>Property Description</text>
                   </div>
                 </td>
                 <td
@@ -302,7 +218,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Owner Name</text>
+                    <text>FirstName LastName</text>
                   </div>
                 </td>
                 <td
@@ -315,7 +231,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Father</text>
+                    <text>FirstName LastName</text>
                   </div>
                 </td>
                 <td
@@ -328,45 +244,9 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Name</text>
+                    <text>10-10-2021</text>
                   </div>
                 </td>
-                <tr>
-                  <colgroup span="3"></colgroup>
-                  <td
-                    style={{
-                      top: "864px",
-                      left: "1400px",
-                      width: "100px",
-                      height: "48px",
-                    }}
-                    scope="row"
-                  >
-                    <p className="text-center font-weight-normal">2</p>
-                  </td>
-                  <td
-                    style={{
-                      top: "864px",
-                      left: "1560px",
-                      width: "100px",
-                      height: "48px",
-                    }}
-                    scope="row"
-                  >
-                    <p className="text-center font-weight-normal">3</p>
-                  </td>
-                  <td
-                    style={{
-                      top: "864px",
-                      left: "1720px",
-                      width: "140px",
-                      height: "48px",
-                    }}
-                    scope="row"
-                  >
-                    <p className="text-center font-weight-normal">45</p>
-                  </td>
-                </tr>
               </tr>
             </tbody>
           </thead>
@@ -416,18 +296,18 @@ const ViewPropertyBhoomi = () => {
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Survey No.</p>
+                  <p className="text-center font-weight-bold">SRO</p>
                 </th>
                 <th
                   style={{
                     top: "784px",
                     left: "330px",
-                    width: "200px",
+                    width: "250px",
                     height: "80px",
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Hissa No.</p>
+                  <p className="text-center font-weight-bold">Court Order No.</p>
                 </th>
                 <th
                   style={{
@@ -438,7 +318,18 @@ const ViewPropertyBhoomi = () => {
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Owner Name</p>
+                  <p className="text-center font-weight-bold">Injunction or Stay against the Property</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "890px",
+                    width: "800px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Order Details</p>
                 </th>
                 <th
                   style={{
@@ -449,7 +340,18 @@ const ViewPropertyBhoomi = () => {
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Relationship</p>
+                  <p className="text-center font-weight-bold">Survey No.</p>
+                </th>
+                <th
+                  style={{
+                    top: "784px",
+                    left: "890px",
+                    width: "300px",
+                    height: "80px",
+                  }}
+                  scope="row"
+                >
+                  <p className="text-center font-weight-bold">Current Number</p>
                 </th>
                 <th
                   style={{
@@ -460,7 +362,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                   scope="row"
                 >
-                  <p className="text-center font-weight-bold">Relative Name</p>
+                  <p className="text-center font-weight-bold">Old Number</p>
                 </th>
                 <thead>
                   <tr>
@@ -474,7 +376,7 @@ const ViewPropertyBhoomi = () => {
                       colspan="3"
                       scope="colgroup"
                     >
-                      <p className="text-center">Available Extent</p>
+                      <p className="text-center">Boundaries</p>
                     </th>
                   </tr>
                 </thead>
@@ -494,12 +396,12 @@ const ViewPropertyBhoomi = () => {
                         style={{
                           top: "832px",
                           left: "1461px",
-                          width: "80px",
+                          width: "90px",
                           height: "24px",
                         }}
                       >
                         {" "}
-                        Acre
+                        East
                       </p>
                     </th>
                     <th
@@ -516,12 +418,12 @@ const ViewPropertyBhoomi = () => {
                         style={{
                           top: "832px",
                           left: "1614px",
-                          width: "80px",
+                          width: "90px",
                           height: "24px",
                         }}
                       >
                         {" "}
-                        Gunta
+                        West
                       </p>
                     </th>
                     <th
@@ -538,12 +440,12 @@ const ViewPropertyBhoomi = () => {
                         style={{
                           top: "832px",
                           left: "1726px",
-                          width: "120px",
+                          width: "100px",
                           height: "24px",
                         }}
                       >
                         {" "}
-                        Fraction of Gunta
+                        North
                       </p>
                     </th>
                   </tr>
@@ -575,7 +477,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>56</text>
+                    <text>209</text>
                   </div>
                 </td>
                 <td
@@ -588,7 +490,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>1</text>
+                    <text>5631/2010</text>
                   </div>
                 </td>
                 <td
@@ -601,7 +503,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Owner Name</text>
+                    <text>No</text>
                   </div>
                 </td>
                 <td
@@ -614,7 +516,7 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Father</text>
+                    <text>5631/2010</text>
                   </div>
                 </td>
                 <td
@@ -627,7 +529,33 @@ const ViewPropertyBhoomi = () => {
                   }}
                 >
                   <div className="text-center font-weight-normal">
-                    <text>Name</text>
+                    <text>0</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "864px",
+                    left: "890px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>41</text>
+                  </div>
+                </td>
+                <td
+                  style={{
+                    fontFamily: "sans-serif",
+                    top: "1280px",
+                    left: "1480px",
+                    width: "200px",
+                    height: "48px",
+                  }}
+                >
+                  <div className="text-center font-weight-normal">
+                    <text>38</text>
                   </div>
                 </td>
                 <tr>
@@ -636,34 +564,34 @@ const ViewPropertyBhoomi = () => {
                     style={{
                       top: "864px",
                       left: "1400px",
-                      width: "100px",
+                      width: "110px",
                       height: "48px",
                     }}
                     scope="row"
                   >
-                    <p className="text-center font-weight-normal">2</p>
+                    <p className="text-center font-weight-normal">Road</p>
                   </td>
                   <td
                     style={{
                       top: "864px",
                       left: "1560px",
-                      width: "100px",
+                      width: "110px",
                       height: "48px",
                     }}
                     scope="row"
                   >
-                    <p className="text-center font-weight-normal">3</p>
+                    <p className="text-center font-weight-normal">Road</p>
                   </td>
                   <td
                     style={{
                       top: "864px",
                       left: "1720px",
-                      width: "140px",
+                      width: "120px",
                       height: "48px",
                     }}
                     scope="row"
                   >
-                    <p className="text-center font-weight-normal">45</p>
+                    <p className="text-center font-weight-normal">Private Pro</p>
                   </td>
                 </tr>
               </tr>
@@ -674,8 +602,8 @@ const ViewPropertyBhoomi = () => {
         <div class="card-body">
                 <div class="row ml-4" style={{position: "relative", top:"100px"}}>
                     <div class="col-md-3 "  >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>DISTRICT</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}} className="mt-4">
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>SELECT STAMP ARTICLE</b></lable><br />
+                        <select style = {{top: "559px", left: "440px", width: "250px", height: "48px",borderRadius:"5px"}} className="mt-4">
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -683,8 +611,8 @@ const ViewPropertyBhoomi = () => {
                         </select> 
                     </div>
                     <div class="col-md-3"  >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>TALUKA</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}} className="mt-4">
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>SELECT STAMP SUB-ARTICLE</b></lable><br />
+                        <select style = {{top: "559px", left: "440px", width: "250px", height: "48px",borderRadius:"5px"}} className="mt-4">
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -692,8 +620,8 @@ const ViewPropertyBhoomi = () => {
                         </select> 
                     </div>
                     <div class="col-md-3" >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>HOBLI</b></lable><br />
-                        <select style = {{top: "559px", left: "440px", width: "200px", height: "48px",borderRadius:"5px"}} className="mt-4">
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>SELECT REGISTRATION FEE ARTICLE</b></lable><br />
+                        <select style = {{top: "559px", left: "440px", width: "250px", height: "48px",borderRadius:"5px"}} className="mt-4">
                         <option>Value</option> 
                         <option>1</option> 
                         <option>2</option>
@@ -701,8 +629,8 @@ const ViewPropertyBhoomi = () => {
                         </select> 
                     </div>
                     <div class="col-md-3"  >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>HISSA NO.</b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px",padding:"5px"}} className="mt-4" placeholder='Value' disabled/> 
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>BOOK NUMBER</b></lable><br />
+                        <input style = {{top: "559px", left: "440px", width: "250px", height: "42px",borderRadius:"5px"}} className="mt-4" placeholder='Value' disabled/> 
                     </div>
                     </div>
                     </div>
@@ -727,4 +655,4 @@ const ViewPropertyBhoomi = () => {
           </div>
   );
 };
-export default ViewPropertyBhoomi;
+export default Vpropertynonagricultural21;

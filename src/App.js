@@ -24,8 +24,12 @@ import Dashboard from "./pages/Dashboard";
 import PBhoomiSearch from "./pages/PBhoomiSearch";
 import PViewPropertyBhoomi from "./pages/PViewPropertyBhoomi";
 import Mojiniesketch from "./pages/Mojiniesketch";
-import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
 import PNonagriculturalsearch from "./pages/PNonagriculturalsearch";
+import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
+import ViewPropertyNonAgricultural20 from "./pages/ViewPropertyNonAgricultural20";
+import ViewPropertyNonAgricultural21 from "./pages/ViewPropertyNonAgricultural21";
+import PPartyDetailsConsentingWitness1 from "./pages/PPartyDetailsConsentingWitness1";
+import PPartyDetailsConsentingWitness2 from "./pages/PPartyDetailsConsentingWitness2";
 
 function App() {
   // const [viewOtpForm, setViewOtpForm] = useState(false);
@@ -135,23 +139,17 @@ function App() {
         <Route path="/NatureOfDocumentPOA" element={<NatureOfDocumentPOA />} />
         <Route path="/NatureofDocumentWill" element={<NatureofDocumentWill />}/>
         <Route path="/ImmovableMovable" element={<ImmovableMovable />} />
-        <Route
-          path="/AgriculturalNonAgricultural"
-          element={<AgriculturalNonAgricultural />}
-        />
-        <Route
-          path="/bhoomisearch"
-          element={<PBhoomiSearch />}
-        />
-         <Route
-          path="/viewpropertybhoomi"
-          element={<PViewPropertyBhoomi />}
-        />
         <Route path="/AgriculturalNonAgricultural" element={<AgriculturalNonAgricultural />} />
+        <Route path="/bhoomisearch" element={<PBhoomiSearch />} />
+        <Route path="/viewpropertybhoomi"  element={<PViewPropertyBhoomi />} />
         <Route path="/" element={<Mojiniesketch />} />
         <Route path="/nonagrisearch" element={<PNonagriculturalsearch />} />
-      
-
+        <Route path="/Mojiniesketch" element={<Mojiniesketch />} />
+        <Route path="/NonAgriculturalSearch" element={<NonAgriculturalSearch/>} />
+        <Route path="/ViewPropertyNonAgricultural20" element={<ViewPropertyNonAgricultural20 />} />
+        <Route path="/" element={<ViewPropertyNonAgricultural21 />} />
+        <Route path="/PartyDetailsConsentingWitness1" element={<PPartyDetailsConsentingWitness1 />} />
+        <Route path="/PartyDetailsConsentingWitness2" element={<PPartyDetailsConsentingWitness2 />} />
       </Routes>
     </div>
   );

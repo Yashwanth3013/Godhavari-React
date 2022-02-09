@@ -391,9 +391,10 @@ const Property1of1 = () => {
        </tbody>
      </thead>
    </table>
-   <div class="text-center m-5">
-  	<button type="button" class="btn btn-primary">Select Property & Continue</button>
-</div>
+   <div className=" col-md-3 m-5" >
+         <a class="button "  style={{marginLeft:'520px', width:'300px', height:'40px',
+                         color:'white',paddingTop:'10px',borderRadius:"10px"}}>Select Property & Continue</a> 
+         </div>
     </div>
 </div>
   );

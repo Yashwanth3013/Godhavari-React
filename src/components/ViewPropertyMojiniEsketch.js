@@ -2,7 +2,7 @@ import React from "react";
 import back from "../assets/img/avatars/Group 417.png";
 import hello from "../assets/img/avatars/Hello.png";
 
-const ViewPropertyBhoomi = () => {
+const ViewPropertyMojiniEsketch = () => {
     return (
       <div>
         <div class="card shadow-lg bg-white rounded m-5 ">
@@ -59,5 +59,5 @@ const ViewPropertyBhoomi = () => {
         );
       };
       
-      export default ViewPropertyBhoomi;
+      export default ViewPropertyMojiniEsketch;
       
