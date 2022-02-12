@@ -5,7 +5,11 @@ import party3 from "../assets/img/avatars/party-3.png";
 import plus from "../assets/img/avatars/plus.png";
 import back1 from "../assets/img/avatars/back1.png";
 import fw from "../assets/img/avatars/fw.png";
+import { useForm } from 'react-hook-form';
 const PartyDetailsConsentingWitness1 = () => {
+    const{register,handleSubmit,formState}=useForm()
+    const onSubmit=()=>{
+    }
   return(
       <>
     <div>
@@ -39,7 +43,7 @@ const PartyDetailsConsentingWitness1 = () => {
                   <img src={party3} /><span className="border border-muted m-5 rounded-3 p-2" >CONSENTING WITNESS </span>
               </div>
           </div>
-          <div class="card shadow-lg bg-white rounded-3 col-md-7 " style={{width:"830px",height: "1000px",marginLeft:"20px",marginTop:"30px" }} >
+          <div class="card shadow-lg bg-white rounded-3 col-md-7 " style={{width:"830px",height: "1150px",marginLeft:"20px",marginTop:"30px" }} >
               <h1 className='m-4'><b>Enter the Details</b></h1>
               <div class="btn-group" role="group" >
             
@@ -60,12 +64,18 @@ const PartyDetailsConsentingWitness1 = () => {
             </div>
             </div>
             <div>
-                <form>
+                <form onSubmit={handleSubmit(onSubmit)}>
                     <div>
                     <div class="row ml-4" style={{position: "relative", top:"50px"}}>
                     <div class="col-md-4 "  >
-                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>First Name<span className='text-danger' >*</span></b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
+                        <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} >
+                            <b>First Name<span className='text-danger' >*</span></b></lable><br />
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} 
+                        className="mt-4" placeholder='Value' 
+                        {...register("firstname",{
+                            required:"firstname is required"
+                         })}/> 
+                         <p style={{color:'red'}}>{formState.errors.firstname && formState.errors.firstname.message}</p>
                      
                     </div>
                     <div class="col-md-4"  >
@@ -81,8 +91,11 @@ const PartyDetailsConsentingWitness1 = () => {
                     <div class="row ml-4" style={{position: "relative", top:"70px"}}>
                     <div class="col-md-4 "  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>Age<span className='text-danger' >*</span></b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
-                     
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' 
+                        {...register("Age",{
+                            required:"Age is required"
+                         })}/> 
+                     <p style={{color:'red'}}>{formState.errors.Age && formState.errors.Age.message}</p>
                     </div>
                     <div class="col-md-4"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>Gender<span className='text-danger' >*</span></b></lable><br />
@@ -106,12 +119,20 @@ const PartyDetailsConsentingWitness1 = () => {
                     <div class="row ml-4" style={{position: "relative", top:"140px"}}>
                     <div class="col-md-4 "  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>House No./Building Name<span className='text-danger' >*</span></b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' 
+                        {...register("HouseNoBuildingName",{
+                            required:"HouseNo./BuildingName is required"
+                         })}/> 
+                     <p style={{color:'red'}}>{formState.errors.HouseNoBuildingName && formState.errors.HouseNoBuildingName.message}</p> 
                      
                     </div>
                     <div class="col-md-4"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>Street Address<span className='text-danger' >*</span> </b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' 
+                        {...register("StreetAddress",{
+                            required:"Street Address is required"
+                         })}/> 
+                     <p style={{color:'red'}}>{formState.errors.StreetAddress && formState.errors.StreetAddress.message}</p> 
                     </div>
                     <div class="col-md-4" >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>State<span className='text-danger' >*</span></b></lable><br />
@@ -145,7 +166,11 @@ const PartyDetailsConsentingWitness1 = () => {
                     </div>
                     <div class="col-md-4" >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>PIN Code<span className='text-danger' >*</span></b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' 
+                        {...register("PINCode",{
+                            required:"PIN Code is required"
+                         })}/> 
+                     <p style={{color:'red'}}>{formState.errors.PINCode && formState.errors.PINCode.message}</p> 
                     </div>
                     </div>
                     <div class="row ml-4" style={{position: "relative", top:"180px"}}>
@@ -161,7 +186,11 @@ const PartyDetailsConsentingWitness1 = () => {
                     </div>
                     <div class="col-md-4"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}}><b>Relative's Name<span className='text-danger' >*</span></b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value' /> 
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",padding:"5px"}} className="mt-4" placeholder='Value'
+                        {...register("RelativeName",{
+                            required:"Relative's Name is required"
+                         })}/> 
+                     <p style={{color:'red'}}>{formState.errors.RelativeName && formState.errors.RelativeName.message}</p> 
                     </div>
                     
                     </div>
@@ -178,7 +207,7 @@ const PartyDetailsConsentingWitness1 = () => {
                         </div>
                     </div>
                     <div style={{position: "relative", top:"240px",marginTop:"20px",marginLeft:"350px"}}>
-                    <button type="button" class="btn btn-primary btn-lg" >Save and Continue</button>
+                    <button  class="btn btn-primary btn-lg" >Save and Continue</button>
                     </div>
                    
                     </div>

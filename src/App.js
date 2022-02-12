@@ -30,6 +30,9 @@ import ViewPropertyNonAgricultural20 from "./pages/ViewPropertyNonAgricultural20
 import ViewPropertyNonAgricultural21 from "./pages/ViewPropertyNonAgricultural21";
 import PPartyDetailsConsentingWitness1 from "./pages/PPartyDetailsConsentingWitness1";
 import PPartyDetailsConsentingWitness2 from "./pages/PPartyDetailsConsentingWitness2";
+import PPropertyschedule from "./pages/PPropertyschedule";
+import PMarketValuation from "./pages/PMarketValuation";
+import PMarketValuationNonAgriculturalVacantPlot from "./pages/PMarketValuationNonAgriculturalVacantPlot";
 
 function App() {
   // const [viewOtpForm, setViewOtpForm] = useState(false);
@@ -150,6 +153,9 @@ function App() {
         <Route path="/" element={<ViewPropertyNonAgricultural21 />} />
         <Route path="/PartyDetailsConsentingWitness1" element={<PPartyDetailsConsentingWitness1 />} />
         <Route path="/PartyDetailsConsentingWitness2" element={<PPartyDetailsConsentingWitness2 />} />
+        <Route path="/propertyschedule" element={<PPropertyschedule />} />
+        <Route path="/marketvaluation" element={<PMarketValuation />} />
+        <Route path="/MarketValuationNonAgriculturalVacantPlot" element={<PMarketValuationNonAgriculturalVacantPlot />} />
       </Routes>
     </div>
   );
