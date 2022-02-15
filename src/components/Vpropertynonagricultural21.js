@@ -596,7 +596,11 @@ const Vpropertynonagricultural21 = () => {
                 </tr>
               </tr>
             </tbody>
-          </thead>
+          </thead><br></br>
+          <div>
+          <div class="progress-bar" style={{width:"47%" , height:"4px",color:'#05265B'}}>
+          </div>
+          </div>
         </table>
         <div>
         <div class="card-body">

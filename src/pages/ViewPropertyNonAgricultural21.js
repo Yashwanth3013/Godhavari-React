@@ -5,6 +5,7 @@ import Vpropertynonagricultural21 from '../components/Vpropertynonagricultural21
 const ViewPropertyNonAgricultural21 = () => {
   return (
     <div>
+    
     <HeaderLogin />
     <Vpropertynonagricultural21 />
 

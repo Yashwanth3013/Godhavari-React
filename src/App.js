@@ -25,6 +25,12 @@ import Mojiniesketch from "./pages/Mojiniesketch";
 import NonAgriculturalSearch from "./pages/NonAgriculturalSearch";
 import ViewPropertyNonAgricultural20 from "./pages/ViewPropertyNonAgricultural20";
 import ViewPropertyNonAgricultural21 from "./pages/ViewPropertyNonAgricultural21";
+import PPartyDetailsConsentingWitness from "./pages/PPartyDetailsConsentingWitness";
+import DocumentfoApproval1 from "./pages/DocumentfoApproval1";
+import PartyDetailsPresenter from "./pages/PartyDetailsPresenter";
+import PartyDetailsExecutant1 from "./pages/PartyDetailsExecutant1";
+import PartyDetailsExecutant2 from "./pages/PartyDetailsExecutant2";
+
 
 
 function App() {
@@ -139,7 +145,14 @@ function App() {
         <Route path="/Mojiniesketch" element={<Mojiniesketch />} />
         <Route path="/NonAgriculturalSearch" element={<NonAgriculturalSearch/>} />
         <Route path="/ViewPropertyNonAgricultural20" element={<ViewPropertyNonAgricultural20 />} />
-        <Route path="/" element={<ViewPropertyNonAgricultural21 />} />
+        <Route path="/ViewPropertyNonAgricultural21" element={<ViewPropertyNonAgricultural21 />} />
+        <Route path="/PPartyDetailsConsentingWitness" element={<PPartyDetailsConsentingWitness />} />
+        <Route path="/DocumentfoApproval1" element={<DocumentfoApproval1 />} />
+        <Route path="/PartyDetailsPresenter" element={<PartyDetailsPresenter />} />
+        <Route path="/PartyDetailsExecutant1" element={<PartyDetailsExecutant1 />} />
+        <Route path="/PartyDetailsExecutant2" element={<PartyDetailsExecutant2 />} />
+       
+        
       </Routes>
     </div>
   );

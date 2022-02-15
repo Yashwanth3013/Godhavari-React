@@ -165,8 +165,7 @@ const Vpropertynonagricultural20 = () => {
         </div>
          </div>
          <div className=" col-md-3" >
-         <a class="button "  style={{marginLeft:'520px', width:'300px', height:'40px',
-                         color:'white',paddingTop:'10px',borderRadius:"10px"}}>Select Property & Continue</a> 
+         <a class="button"  style={{marginLeft:'520px', width:'300px', height:'40px',color:'white',paddingTop:'10px',borderRadius:"10px"}}>Select Property & Continue</a> 
          </div>
          <div class=" w-100 bg-dark text-white" style={{height: "40px",borderStyle:'solid',borderColor:'#E8E8E8',marginTop:"100px"}}>
         <p className="mt-2 ml-4">Accessibility Statement | Terms & Conditions | Website Policies | Help | Feedback | Contact Us | Web Information Manager | FAQ | Sitemap | Visitors Analytics</p>
