@@ -702,7 +702,7 @@ const ViewPropertyBhoomi = () => {
                     </div>
                     <div class="col-md-3"  >
                         <lable style = {{top: "522px",left: "440px",width: "135px",height: "21px"}} ><b>HISSA NO.</b></lable><br />
-                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px"}} className="mt-4" placeholder='Value' disabled/> 
+                        <input style = {{top: "559px", left: "440px", width: "200px", height: "42px",borderRadius:"5px",padding:"5px"}} className="mt-4" placeholder='Value' disabled/> 
                     </div>
                     </div>
                     </div>
